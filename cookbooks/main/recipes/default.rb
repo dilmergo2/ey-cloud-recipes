@@ -11,7 +11,8 @@
 # include_recipe "deny-directories"
 
 # uncomment to turn on thinking sphinx 2/ultra sphinx. Remember to edit cookbooks/sphinx/recipes/default.rb first!
-include_recipe "sphinx"
+# include_recipe "sphinx"
+include_recipe dilmer_test
 
 # uncomment to turn on thinking sphinx 3. See cookbooks/thinking-sphinx-3/readme.md for documentation.
 # include_recipe "thinking-sphinx-3"
